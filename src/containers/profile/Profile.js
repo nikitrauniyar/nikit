@@ -15,23 +15,18 @@ export default function Profile() {
 
 	useEffect(() => {
 		if (openSource.showGithubProfile === 'true') {
-			const getProfileData = () => {
-				fetch('/profile.json')
-					.then(result => {
-						if (result.ok) {
-							return result.json();
-						}
-					})
-					.then(response => {
-						setProfileFunction(response.data.user);
-					})
-					.catch(function (error) {
-						console.error(
-							`${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
-						);
-						setProfileFunction('Error');
-						openSource.showGithubProfile = 'false';
-					});
+			const getProfileData = async () => {
+				try {
+					const result = await fetch('/profile.json');
+					const response = await result.json();
+					setProfileFunction(response.data.user);
+				} catch (error) {
+					console.error(
+						`${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
+					);
+					setProfileFunction('Error');
+					openSource.showGithubProfile = 'false';
+				}
 			};
 			getProfileData();
 		}
