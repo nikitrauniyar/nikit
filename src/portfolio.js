@@ -9,7 +9,7 @@ import nikitResume from './assets/images/nikit_resume.pdf';
 // Splash Screen
 
 const splashScreen = {
-	enabled: false, // set false to disable splash screen
+	enabled: true, // set false to disable splash screen
 	animation: splashAnimation,
 	duration: 1000 // Set animation duration as per your animation
 };
@@ -318,13 +318,6 @@ const workExperiences = {
 				'Updating codes to latest standards and security practices.'
 			]
 		}
-		// {
-		//   role: "Software Engineer Intern",
-		//   company: "Airbnb",
-		//   companylogo: require("./assets/images/airbnbLogo.png"),
-		//   date: "Jan 2015 – Sep 2015",
-		//   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-		// }
 	]
 };
 
@@ -433,51 +426,12 @@ const blogSection = {
 	display: true // Set false to hide this section, defaults to true
 };
 
-// Talks Sections
-
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji(
-//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-//   ),
-
-//   talks: [
-//     {
-//       title: "Build Actions For Google Assistant",
-//       subtitle: "Codelab at GDG DevFest Karachi 2019",
-//       slides_url: "https://bit.ly/saadpasta-slides",
-//       event_url: "https://www.facebook.com/events/2339906106275053/"
-//     }
-//   ],
-//   display: false // Set false to hide this section, defaults to true
-// };
-
-// Podcast Section
-
-const podcastSection = {
-	title: emoji('Podcast 🎙️'),
-	subtitle: 'I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY',
-
-	// Please Provide with Your Podcast embeded Link
-	podcast: [
-		'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo'
-	],
-	display: false // Set false to hide this section, defaults to true
-};
-
 const contactInfo = {
 	title: emoji('Contact Me ☎️'),
 	subtitle:
 		'Think I am a good fit for your team or just want to say hi? My Inbox is open for all.',
 	number: '+61-450092919',
 	email_address: 'rauniyarnikit@gmail.com'
-};
-
-// Twitter Section
-
-const twitterDetails = {
-	userName: 'nikitrauniyar', //Replace "twitter" with your twitter username without @
-	display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -495,9 +449,6 @@ export {
 	bigProjects,
 	achievementSection,
 	blogSection,
-	// talkSection,
-	podcastSection,
 	contactInfo,
-	twitterDetails,
 	isHireable
 };

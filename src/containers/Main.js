@@ -24,6 +24,8 @@ const Main = () => {
 	const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
 		useState(true);
 
+	const [isMenuIconChecked, setIsMenuIconChecked] = useState(false);
+
 	useEffect(() => {
 		if (splashScreen.enabled) {
 			const splashTimer = setTimeout(
@@ -34,6 +36,19 @@ const Main = () => {
 				clearTimeout(splashTimer);
 			};
 		}
+	}, []);
+
+	useEffect(() => {
+		window.addEventListener('scroll', () => {
+			setIsMenuIconChecked(false);
+		});
+
+		// returned function will be called on component unmount
+		return () => {
+			window.removeEventListener('scroll', () => {
+				setIsMenuIconChecked(false);
+			});
+		};
 	}, []);
 
 	const changeTheme = () => {
@@ -47,19 +62,24 @@ const Main = () => {
 					<SplashScreen />
 				) : (
 					<>
-						<Header />
-						<Greeting />
-						<Skills />
-						<StackProgress />
-						<Education />
-						<WorkExperience />
-						<Projects />
-						<StartupProject />
-						<Certification />
-						<Blogs />
-						<Profile />
-						<Footer />
-						<ScrollToTopButton />
+						<Header
+							isChecked={isMenuIconChecked}
+							setIsChecked={setIsMenuIconChecked}
+						/>
+						<div onClick={() => setIsMenuIconChecked(false)}>
+							<Greeting />
+							<Skills />
+							<StackProgress />
+							<Education />
+							<WorkExperience />
+							<Projects />
+							<StartupProject />
+							<Certification />
+							<Blogs />
+							<Profile />
+							<Footer />
+							<ScrollToTopButton />
+						</div>
 					</>
 				)}
 			</StyleProvider>

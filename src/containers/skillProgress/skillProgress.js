@@ -31,10 +31,11 @@ export default function StackProgress() {
 						{illustration.animated ? (
 							<DisplayLottie animationData={Build} />
 						) : (
-							<img
-								alt="Skills"
-								src={require('../../assets/images/skill.svg')}
-							/>
+							// <img
+							// 	alt="Skills"
+							// 	src={require('../../assets/images/skill.svg')}
+							// />
+							<></>
 						)}
 					</div>
 				</div>

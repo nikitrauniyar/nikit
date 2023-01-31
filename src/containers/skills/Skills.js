@@ -20,10 +20,11 @@ export default function Skills() {
 						{illustration.animated ? (
 							<DisplayLottie animationData={codingPerson} />
 						) : (
-							<img
-								alt="Man Working"
-								src={require('../../assets/images/developerActivity.svg')}
-							></img>
+							// <img
+							// 	alt="Man Working"
+							// 	src={require('../../assets/images/developerActivity.svg')}
+							// ></img>
+							<></>
 						)}
 					</div>
 				</Fade>

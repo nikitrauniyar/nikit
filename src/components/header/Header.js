@@ -12,7 +12,7 @@ import {
 	achievementSection
 } from '../../portfolio';
 
-function Header() {
+function Header({ isChecked, setIsChecked }) {
 	const { isDark } = useContext(StyleContext);
 	const viewExperience = workExperiences.display;
 	const viewOpenSource = openSource.display;
@@ -28,7 +28,13 @@ function Header() {
 					<span className="logo-name">{greeting.username}</span>
 					<span className="grey-color">/&gt;</span>
 				</a>
-				<input className="menu-btn" type="checkbox" id="menu-btn" />
+				<input
+					className="menu-btn"
+					type="checkbox"
+					id="menu-btn"
+					checked={isChecked}
+					onChange={() => setIsChecked(!isChecked)}
+				/>
 				<label
 					className="menu-icon"
 					htmlFor="menu-btn"
@@ -36,7 +42,10 @@ function Header() {
 				>
 					<span className={isDark ? 'navicon navicon-dark' : 'navicon'}></span>
 				</label>
-				<ul className={isDark ? 'dark-menu menu' : 'menu'}>
+				<ul
+					className={isDark ? 'dark-menu menu' : 'menu'}
+					onClick={() => setIsChecked(!isChecked)}
+				>
 					{viewSkills && (
 						<li>
 							<a href="#skills">Skills</a>
