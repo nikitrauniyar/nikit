@@ -4,11 +4,11 @@ For greater control over colors visit each components .scss file. */
 
 // button colors
 // $buttonColor: #55198b;
-$buttonColor: #001C55;
+$buttonColor: #001c55;
 // $buttonHover: #8c43ce;
-$buttonHover: #001C55;
+$buttonHover: #001c55;
 $topButtonHover: #000;
-$logoColor: #001C55;
+$logoColor: #001c55;
 
 // text colors light theme
 $titleColor: #000000;
@@ -32,7 +32,7 @@ $githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
 $githubRepoCardRepoNameColor: rgb(36, 41, 46);
 $githubProfileCardLocationTS: #ffebcd;
 // $githubProfileCardBorder: #6c63ff;
-$githubProfileCardBorder: #001C55;
+$githubProfileCardBorder: #001c55;
 
 // light background colors
 $lightBackground1: #fff;
@@ -53,18 +53,18 @@ $darkBoxShadow2: #ffffff;
 
 // linear gradients
 $experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
+	rgba(0, 0, 0, 0.4),
+	rgba(0, 0, 0, 0.2)
 );
 $experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
+	rgba(0, 0, 0, 0.7),
+	rgba(0, 0, 0, 0.5)
 );
 
 // borders
 $progressBarBackground: rgb(243, 239, 239);
 $lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #001C55;
+$educationCardBorder: #001c55;
 
 // hovers
 $achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
@@ -74,13 +74,13 @@ $contactDetailHoverTS: #b5b5b5;
 
 // misc backgrounds
 // $progressBarSpanBG: #aaa5ff;
-$progressBarSpanBG: #001C55;
+$progressBarSpanBG: #001c55;
 $iconBackground: #333;
 $appHeaderBG: #282c34;
 
 // misc colors
 // $skillsColor: #645beb;
-$skillsColor: #001C55;
+$skillsColor: #001c55;
 $appLink: #09d3ac;
 
 // social media icons
