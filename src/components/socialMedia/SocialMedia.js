@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './SocialMedia.scss';
 import { socialMediaLinks } from '../../portfolio';
+import StyleContext from '../../contexts/StyleContext';
 
-export default function socialMedia() {
+export default function SocialMedia() {
+	const { isDark } = useContext(StyleContext);
 	if (!socialMediaLinks.display) {
 		return null;
 	}
@@ -15,8 +17,12 @@ export default function socialMedia() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<i className="fab fa-github"></i>
-					<span></span>
+					{/* <i className="fab fa-github"></i>
+					<i className="fa-brands fa-github"></i> */}
+					<span
+						className="fa-brands fa-github fa-lg"
+						style={{ color: isDark && 'inherit' }}
+					></span>
 				</a>
 			) : null}
 
@@ -27,8 +33,12 @@ export default function socialMedia() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<i className="fab fa-linkedin-in"></i>
-					<span></span>
+					{/* <i className="fab fa-linkedin-in"></i> */}
+					{/* <i className="fa-brands fa-linkedin"></i> */}
+					<span
+						className="fa-brands fa-linkedin fa-lg"
+						style={{ backgroundColor: isDark && 'white' }}
+					></span>
 				</a>
 			) : null}
 
@@ -39,8 +49,13 @@ export default function socialMedia() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<i className="fas fa-envelope"></i>
-					<span></span>
+					{/* <i className="fas fa-envelope"></i>
+					<i class="fa-solid fa-envelope"></i> */}
+					<span
+						className="fa-solid fa-envelope fa-lg"
+						style={{ color: '#EA4335' }}
+					></span>
+					{/* <span className="fa-duotone fa-envelope"></span> */}
 				</a>
 			) : null}
 
@@ -99,8 +114,11 @@ export default function socialMedia() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<i className="fab fa-medium"></i>
-					<span></span>
+					{/* <i className="fab fa-medium"></i> */}
+					<span
+						className="fa-brands fa-medium fa-lg"
+						style={{ color: isDark ? 'white' : 'black' }}
+					></span>
 				</a>
 			) : null}
 

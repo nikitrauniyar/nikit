@@ -19,30 +19,32 @@ export default function Blogs() {
 					.filter(el => !el.includes('>'))
 					.map(el => el.replace('</', '.').replace('<', ''))
 					.join(' ')
-					.slice(0, 84) + '...'
+					.split('.')[0] + '.'
 			: NaN;
 	}
 	useEffect(() => {
 		if (blogSection.displayMediumBlogs) {
-			const getProfileData = async () => {
+			const getMediumBlogs = async () => {
 				try {
-					const result = await fetch('/blogs.json');
-					const response = await result.json();
-					setMediumBlogsFunction(response.items);
-				} catch (error) {
-					console.error(
-						`${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
+					const response = await fetch(
+						`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@nikitrauniyar`
 					);
+					const mediumData = await response.json();
+					setMediumBlogs(mediumData.items);
+				} catch (error) {
+					console.error(error);
 					setMediumBlogsFunction('Error');
 					blogSection.displayMediumBlogs = 'false';
 				}
 			};
-			getProfileData();
+			getMediumBlogs();
 		}
 	}, []);
+
 	if (!blogSection.display) {
 		return null;
 	}
+
 	return (
 		<Fade bottom duration={1000} distance="20px">
 			<div className="main" id="blogs">

@@ -5,7 +5,7 @@
 }
 
 .icon-button {
-	margin-bottom: 10px;
+	// margin-bottom: 10px;
 }
 
 .icon-button i {
@@ -27,17 +27,39 @@
 	margin-bottom: 10px;
 	transition: 0.2s ease-in;
 }
+.icon-button span {
+	// padding-right: 15px ;
+	// color: $textColorDark;
+	border-radius: 2.6rem;
+	cursor: pointer;
+	display: inline-block;
+	// font-size: 1.3rem;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	margin: 0 10px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 2.6rem;
+	margin-bottom: 10px;
+	transition: 0.2s ease-in;
+}
 
 .facebook i {
 	background-color: $faceBook;
 }
 
-.linkedin i {
-	background-color: $linkedin;
+.linkedin span {
+	// background-color: $linkedin;
+	color: $linkedin
 }
 
-.github i {
-	background-color: $github;
+.github span {
+	// background-color: $github;
+	color: $github;
 }
 
 .gitlab i {

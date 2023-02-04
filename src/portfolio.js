@@ -23,7 +23,7 @@ const illustration = {
 const greeting = {
 	username: 'Nikit Rauniyar',
 	title: "Hi all, I'm Nikit",
-	subTitle: emoji('Full Stack Software Developer 👨🏼‍💻'),
+	subTitle: emoji('Full Stack Software Engineer 👨🏼‍💻'),
 	resumeLink: nikitResume,
 	// Set to empty to hide the button
 	displayGreeting: true // Set false to hide this section, defaults to true
@@ -48,13 +48,19 @@ const skillsSection = {
 	subTitle: 'BUILDING WEB APPS WITH MODERN TECHNOLOGIES',
 	skills: [
 		emoji(
-			'⚡ Developing scalable and reusable front-end components with React.js'
+			'⚡ Developing scalable and reusable front-end components with React.js (TypeScript)'
 		),
-		emoji('⚡ OAuth 2.0 Configurations using Microsoft and Google'),
 		emoji(
-			'⚡ Data handling and API calls to back-end with Node.js, Java or Python'
+			'⚡ Authenticating using Auth0 (JWT) and OAuth 2.0 configurations using Microsoft and Google'
 		),
-		emoji('⚡ Data processing and storing in databases using SQL or NoSQL')
+		emoji(
+			'⚡ API designing and developing with Node.js (TypeScript), Java or Python'
+		),
+		emoji('⚡ Building complex business logics to solve problems'),
+		emoji('⚡ Data processing and storing in databases using SQL or NoSQL'),
+		emoji(
+			'⚡ Any external API integrations like Stripe (Online Payment Processor), MailChimp (Email Server) and Cloudinary (Image Processor)'
+		)
 	],
 
 	/* Make Sure to include correct Font Awesome Classname to view your icon
