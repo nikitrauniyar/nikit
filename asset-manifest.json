@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0968100c.css",
-    "main.js": "/static/js/main.5ba6059c.js",
+    "main.css": "/static/css/main.45325f9d.css",
+    "main.js": "/static/js/main.65f1198f.js",
     "static/css/64.3a0fec9a.chunk.css": "/static/css/64.3a0fec9a.chunk.css",
-    "static/js/64.7159d170.chunk.js": "/static/js/64.7159d170.chunk.js",
-    "static/css/769.0004552d.chunk.css": "/static/css/769.0004552d.chunk.css",
+    "static/js/64.bb60bdd2.chunk.js": "/static/js/64.bb60bdd2.chunk.js",
+    "static/css/769.6b10948f.chunk.css": "/static/css/769.6b10948f.chunk.css",
     "static/js/769.74ebbbeb.chunk.js": "/static/js/769.74ebbbeb.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -15,15 +15,15 @@
     "static/media/booop.png": "/static/media/booop.e3112c96335af9edd5c7.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.13e3f53efb1167859ab6f71ed8473895.svg",
     "index.html": "/index.html",
-    "main.0968100c.css.map": "/static/css/main.0968100c.css.map",
-    "main.5ba6059c.js.map": "/static/js/main.5ba6059c.js.map",
+    "main.45325f9d.css.map": "/static/css/main.45325f9d.css.map",
+    "main.65f1198f.js.map": "/static/js/main.65f1198f.js.map",
     "64.3a0fec9a.chunk.css.map": "/static/css/64.3a0fec9a.chunk.css.map",
-    "64.7159d170.chunk.js.map": "/static/js/64.7159d170.chunk.js.map",
-    "769.0004552d.chunk.css.map": "/static/css/769.0004552d.chunk.css.map",
+    "64.bb60bdd2.chunk.js.map": "/static/js/64.bb60bdd2.chunk.js.map",
+    "769.6b10948f.chunk.css.map": "/static/css/769.6b10948f.chunk.css.map",
     "769.74ebbbeb.chunk.js.map": "/static/js/769.74ebbbeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0968100c.css",
-    "static/js/main.5ba6059c.js"
+    "static/css/main.45325f9d.css",
+    "static/js/main.65f1198f.js"
   ]
 }
