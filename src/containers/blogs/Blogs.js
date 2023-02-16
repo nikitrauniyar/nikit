@@ -4,6 +4,7 @@ import BlogCard from '../../components/blogCard/BlogCard';
 import { blogSection } from '../../portfolio';
 import { Fade } from 'react-reveal';
 import StyleContext from '../../contexts/StyleContext';
+import Button from '../../components/button/Button';
 
 export default function Blogs() {
 	const { isDark } = useContext(StyleContext);
@@ -30,7 +31,7 @@ export default function Blogs() {
 						`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@nikitrauniyar`
 					);
 					const mediumData = await response.json();
-					setMediumBlogs(mediumData.items);
+					setMediumBlogs(mediumData.items.slice(0, 6));
 				} catch (error) {
 					console.error(error);
 					setMediumBlogsFunction('Error');
@@ -50,13 +51,6 @@ export default function Blogs() {
 			<div className="main" id="blogs">
 				<div className="blog-header">
 					<h1 className="blog-header-text">{blogSection.title}</h1>
-					{/* <p
-            className={
-              isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"
-            }
-          >
-            {blogSection.subtitle}
-          </p> */}
 				</div>
 				<div className="blog-main-div">
 					<div className="blog-text-div">
@@ -86,6 +80,12 @@ export default function Blogs() {
 							  ))}
 					</div>
 				</div>
+				<Button
+					className="blog-button"
+					text="View More"
+					href="https://nikitrauniyar.medium.com"
+					newTab
+				/>
 			</div>
 		</Fade>
 	);

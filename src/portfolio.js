@@ -314,7 +314,7 @@ const workExperiences = {
 			role: 'Software Developer',
 			company: 'BrandoPC Solutions',
 			companylogo: require('./assets/images/bpc.jpeg'),
-			date: 'May 2017 – May 2018',
+			date: 'May 2021 – April 2022',
 			desc: 'A company providing IT services.',
 			descBullets: [
 				'Building web applications using React.js including OAuth.',
@@ -394,7 +394,7 @@ const achievementSection = {
 		},
 		{
 			title: 'AI in Fintech',
-			subtitle: '- University of Helsinki & Reaktor',
+			subtitle: '- University of Helsinki & Reaktor (Online)',
 			image: require('./assets/images/elements-of-ai.png'),
 			imageAlt: 'Aiinfintech',
 			footerLink: [

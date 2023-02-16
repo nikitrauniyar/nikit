@@ -29,8 +29,15 @@
 	justify-content: center;
 	margin-top: 20px;
 }
+
 .project-button > .main-button {
 	margin-right: 0 !important;
+}
+
+.blog-button {
+	display: flex;
+	justify-content: center;
+	margin-top: -20px;
 }
 /* Media Query */
 @media (max-width: 768px) {
