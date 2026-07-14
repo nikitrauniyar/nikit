@@ -11,9 +11,6 @@ export default function Footer() {
 				<p className={isDark ? 'dark-mode footer-text' : 'footer-text'}>
 					Copyright © Nikit Rauniyar, {new Date().getFullYear()}
 				</p>
-				<p className={isDark ? 'dark-mode footer-text' : 'footer-text'}>
-					Melbourne, AU & SF Bay Area
-				</p>
 				{/* <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
           <a href="https://github.com/saadpasta/developerFolio">
