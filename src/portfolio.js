@@ -4,7 +4,7 @@
 
 import emoji from 'react-easy-emoji';
 import splashAnimation from './assets/lottie/splashAnimation'; // Rename to your file name for custom animation
-import nikitResume from './assets/images/nikit_resume.pdf';
+import nikitResume from './assets/images/nikit_resume_website.pdf';
 
 // Splash Screen
 
