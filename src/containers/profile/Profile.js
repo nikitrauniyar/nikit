@@ -17,7 +17,9 @@ export default function Profile() {
 		if (openSource.showGithubProfile === 'true') {
 			const getProfileData = async () => {
 				try {
-					const result = await fetch('/profile.json');
+					const result = await fetch(
+						`${process.env.PUBLIC_URL || ''}/profile.json`
+					);
 					const response = await result.json();
 					setProfileFunction(response.data.user);
 				} catch (error) {

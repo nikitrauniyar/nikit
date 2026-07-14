@@ -3,24 +3,21 @@ on:
   push:
   pull_request:
       branches:
-        - master
+        - main
 jobs:
   check-format:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v2-beta
+      - uses: actions/setup-node@v4
         with:
-          node-version: '12'
+          node-version: "18"
 
-      - name: Install Prettier
-        run: npm install -g prettier
+      - name: Install dependencies
+        run: npm install
 
       - name: Check Format
         run: |
-          prettier -c "./**/*.{js,css,json}"
-
+          npm run check-format
