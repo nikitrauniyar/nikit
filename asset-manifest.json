@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/nikit/static/css/main.59a48346.css",
-    "main.js": "/nikit/static/js/main.55c5ffb0.js",
+    "main.css": "/nikit/static/css/main.41406b64.css",
+    "main.js": "/nikit/static/js/main.afcfe5c1.js",
     "static/css/487.869f02d9.chunk.css": "/nikit/static/css/487.869f02d9.chunk.css",
     "static/js/487.988b688e.chunk.js": "/nikit/static/js/487.988b688e.chunk.js",
     "static/css/990.55132d25.chunk.css": "/nikit/static/css/990.55132d25.chunk.css",
-    "static/js/990.3962aa96.chunk.js": "/nikit/static/js/990.3962aa96.chunk.js",
+    "static/js/990.c8314b6a.chunk.js": "/nikit/static/js/990.c8314b6a.chunk.js",
+    "static/media/nikit_profile.png": "/nikit/static/media/nikit_profile.740d33c0fb0885da2a3d.png",
     "static/media/Montserrat-Regular.ttf": "/nikit/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/nikit_resume_website.pdf": "/nikit/static/media/nikit_resume_website.798bef46d00524ae2c3a.pdf",
     "static/media/Agustina.woff": "/nikit/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/nikit_resume.pdf": "/nikit/static/media/nikit_resume.0449eadde42f34d28d7d.pdf",
     "static/media/aws_ccp.png": "/nikit/static/media/aws_ccp.32141f414cb1b41a41d8.png",
     "static/media/mp.jpeg": "/nikit/static/media/mp.3ba829068918d4d39cc5.jpeg",
     "static/media/elements-of-ai.png": "/nikit/static/media/elements-of-ai.11d0ffc5abb7f2eb3370.png",
     "static/media/booop.png": "/nikit/static/media/booop.e3112c96335af9edd5c7.png",
-    "static/media/manOnTable.svg": "/nikit/static/media/manOnTable.13e3f53efb1167859ab6f71ed8473895.svg",
     "index.html": "/nikit/index.html",
-    "main.59a48346.css.map": "/nikit/static/css/main.59a48346.css.map",
-    "main.55c5ffb0.js.map": "/nikit/static/js/main.55c5ffb0.js.map",
+    "main.41406b64.css.map": "/nikit/static/css/main.41406b64.css.map",
+    "main.afcfe5c1.js.map": "/nikit/static/js/main.afcfe5c1.js.map",
     "487.869f02d9.chunk.css.map": "/nikit/static/css/487.869f02d9.chunk.css.map",
     "487.988b688e.chunk.js.map": "/nikit/static/js/487.988b688e.chunk.js.map",
     "990.55132d25.chunk.css.map": "/nikit/static/css/990.55132d25.chunk.css.map",
-    "990.3962aa96.chunk.js.map": "/nikit/static/js/990.3962aa96.chunk.js.map"
+    "990.c8314b6a.chunk.js.map": "/nikit/static/js/990.c8314b6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59a48346.css",
-    "static/js/main.55c5ffb0.js"
+    "static/css/main.41406b64.css",
+    "static/js/main.afcfe5c1.js"
   ]
 }
