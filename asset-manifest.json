@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/nikit/static/css/main.59a48346.css",
-    "main.js": "/nikit/static/js/main.656c8493.js",
+    "main.js": "/nikit/static/js/main.1fbb6387.js",
     "static/css/487.869f02d9.chunk.css": "/nikit/static/css/487.869f02d9.chunk.css",
     "static/js/487.988b688e.chunk.js": "/nikit/static/js/487.988b688e.chunk.js",
     "static/css/542.4974cc1c.chunk.css": "/nikit/static/css/542.4974cc1c.chunk.css",
-    "static/js/542.11d9bb26.chunk.js": "/nikit/static/js/542.11d9bb26.chunk.js",
+    "static/js/542.4030f5bc.chunk.js": "/nikit/static/js/542.4030f5bc.chunk.js",
     "static/media/nikit_profile.png": "/nikit/static/media/nikit_profile.740d33c0fb0885da2a3d.png",
     "static/media/Montserrat-Regular.ttf": "/nikit/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/nikit_resume_website.pdf": "/nikit/static/media/nikit_resume_website.798bef46d00524ae2c3a.pdf",
@@ -17,14 +17,14 @@
     "static/media/manOnTable.svg": "/nikit/static/media/manOnTable.13e3f53efb1167859ab6f71ed8473895.svg",
     "index.html": "/nikit/index.html",
     "main.59a48346.css.map": "/nikit/static/css/main.59a48346.css.map",
-    "main.656c8493.js.map": "/nikit/static/js/main.656c8493.js.map",
+    "main.1fbb6387.js.map": "/nikit/static/js/main.1fbb6387.js.map",
     "487.869f02d9.chunk.css.map": "/nikit/static/css/487.869f02d9.chunk.css.map",
     "487.988b688e.chunk.js.map": "/nikit/static/js/487.988b688e.chunk.js.map",
     "542.4974cc1c.chunk.css.map": "/nikit/static/css/542.4974cc1c.chunk.css.map",
-    "542.11d9bb26.chunk.js.map": "/nikit/static/js/542.11d9bb26.chunk.js.map"
+    "542.4030f5bc.chunk.js.map": "/nikit/static/js/542.4030f5bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59a48346.css",
-    "static/js/main.656c8493.js"
+    "static/js/main.1fbb6387.js"
   ]
 }
